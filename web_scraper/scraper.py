@@ -15,6 +15,6 @@ def get_citations_needed_report(url):
     return '\n'.join([passage.strip() for passage in passages])
 
 if __name__ == "__main__":
-    url = "https://en.wikipedia.org/wiki/Cnut#Statesmanship"
+    url = "https://en.wikipedia.org/wiki/History_of_Mexico"
     print(get_citations_needed_count(url))
     print(get_citations_needed_report(url))
